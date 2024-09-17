@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+}
+.cont{
+    background-color: #677636;
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 150px 500px 100px;
+    grid-template-areas: "hoofd hoofd hoofd"
+                         "menueen ahadadream menutwee"
+                         "pata pata pata";
+}
+.cont>div{
+    background-color: #899e48;
+    text-align: center;
+}
+
+.cont .eleme{
+    background-color: #222712;
+    grid-column: hoofd;
+    color: aliceblue;
+    grid-column-start: hoofd;
+    grid-column-end: hoofd;
+}
+
+.cont .side1{
+    grid-column: menueen;
+    font-family: 'Comic Sans MS';
+    display: grid;
+    padding: 15px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.cont .side1 .zunmenu{
+    background-color:#dde8bd;
+}
+.cont .side2{
+    grid-column: menutwee;
+    font-family: 'Comic Sans MS';
+}
+.cont .ahadadream{
+    background-color: #cddc9c;
+    grid-column: ahadadream;
+    display: grid;
+    padding: 15px;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.cont .ahadadream .zunlichaam{
+    background-color: #afeaab;
+}
+.cont .pata{
+    background-color: #444f24;
+    color: #dde8bd;
+    grid-column-start: pata;
+    grid-column-end: pata;
+}

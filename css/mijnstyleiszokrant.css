@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+.cont{
+    background-color: #677636;
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-gap: 15px;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px 150px 300px;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(2,60px);*/
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 150px 500px 100px;
+}
+.cont>div{
+    background-color: #899e48;
+    text-align: center;
+}
+
+.cont .eleme{
+    background-color: #222712;
+    color: aliceblue;
+    grid-column: 1/4;
+}
+
+.cont .side{
+    font-family: 'Comic Sans MS';
+}
+
+.cont .ahadadream{
+    background-color: #cddc9c;
+}
+.cont .pata{
+    background-color: #444f24;
+    color: #dde8bd;
+    grid-column: 1/4;
+}
